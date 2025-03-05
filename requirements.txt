@@ -1,10 +1,13 @@
 # `basemap` is too big to be hosted on PyPI:
 # https://github.com/matplotlib/basemap/issues/198
-https://github.com/matplotlib/basemap/archive/v1.0.7rel.tar.gz
+#https://github.com/matplotlib/basemap/archive/v1.0.7rel.tar.gz
+basemap
+basemap-data
+basemap-data-hires
 matplotlib
 numpy
 # indirect dependency: `basemap` requires `PIL`
 pillow
 pygeoip
 requests
-GeoIP2-python
+geoip2
